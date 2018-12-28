@@ -3,7 +3,7 @@
  */
 //http://stackoverflow.com/questions/28198370/regex-for-validating-correct-input-for-calculator
 	
-const Intent = require('../../../../src/Intent/intent');
+const Intent = girequire('src/Intent/intent');
 const wordsToNumbers = require('words-to-numbers');
 
 module.exports = class CalculatorIntent extends Intent {

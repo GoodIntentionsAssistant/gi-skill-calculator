@@ -1,7 +1,7 @@
 /**
  * Calculator Skill
  */
-var Skill = require('../../../src/Skill/skill');
+var Skill = girequire('src/Skill/skill');
 
 module.exports = class CalculatorSkill extends Skill {
 

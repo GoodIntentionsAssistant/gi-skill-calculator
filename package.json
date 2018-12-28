@@ -13,6 +13,8 @@
     "url": "https://github.com/GoodIntentionsAssistant/gi-skill-calculator.git"
   },
   "licenses": [],
-  "dependencies": {},
+  "dependencies": {
+    "words-to-numbers": "^1.5.1"
+  },
   "keywords": []
 }
