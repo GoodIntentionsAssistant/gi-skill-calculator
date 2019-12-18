@@ -4,7 +4,7 @@
 //http://stackoverflow.com/questions/28198370/regex-for-validating-correct-input-for-calculator
 	
 const Intent = girequire('src/Intent/intent');
-const wordsToNumbers = require('words-to-numbers');
+const wordsToNumbers = girequire('words-to-numbers');
 
 module.exports = class CalculatorIntent extends Intent {
 
@@ -53,6 +53,7 @@ module.exports = class CalculatorIntent extends Intent {
 			var result = this[method](input);
 		}
 		catch(err) {
+			result = 'Sorry, I had a problem calculating '+input;
 		}
 
 		if(!result) {

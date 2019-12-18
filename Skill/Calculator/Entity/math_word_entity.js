@@ -1,7 +1,7 @@
 /**
  * Math Word Entity
  */
-var Entity = require('../../../../src/Entity/entity');
+const Entity = girequire('src/Entity/entity');
 
 module.exports = class MathWordEntity extends Entity {
 
